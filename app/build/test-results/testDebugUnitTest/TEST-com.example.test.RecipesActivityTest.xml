@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.test.RecipesActivityTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-04-23T14:18:35" hostname="DESKTOP-VVL3G5U" time="3.268">
+  <properties/>
+  <testcase name="queryValidate" classname="com.example.test.RecipesActivityTest" time="3.268"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,262 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.test"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:4:5-66
+11-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:5:5-6:40
+12-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:5:22-78
+13
+14    <queries>
+14-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\dillon\.gradle\caches\transforms-3\13a4752ffc88341ea727d500a67eb759\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:26:5-31:15
+15        <provider
+15-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\dillon\.gradle\caches\transforms-3\13a4752ffc88341ea727d500a67eb759\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:27:9-30:67
+16            android:name="com.android.car.ui.plugin.PluginNameProvider"
+16-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\dillon\.gradle\caches\transforms-3\13a4752ffc88341ea727d500a67eb759\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:28:13-72
+17            android:authorities="com.android.car.ui.plugin" />
+17-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\dillon\.gradle\caches\transforms-3\13a4752ffc88341ea727d500a67eb759\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:29:13-60
+18
+19        <package android:name="androidx.test.orchestrator" />
+19-->[androidx.test:runner:1.5.2] C:\Users\dillon\.gradle\caches\transforms-3\a0d3a6c854551aa54ec40acc16585504\transformed\runner-1.5.2\AndroidManifest.xml:25:9-62
+19-->[androidx.test:runner:1.5.2] C:\Users\dillon\.gradle\caches\transforms-3\a0d3a6c854551aa54ec40acc16585504\transformed\runner-1.5.2\AndroidManifest.xml:25:18-59
+20        <package android:name="androidx.test.services" />
+20-->[androidx.test:runner:1.5.2] C:\Users\dillon\.gradle\caches\transforms-3\a0d3a6c854551aa54ec40acc16585504\transformed\runner-1.5.2\AndroidManifest.xml:26:9-58
+20-->[androidx.test:runner:1.5.2] C:\Users\dillon\.gradle\caches\transforms-3\a0d3a6c854551aa54ec40acc16585504\transformed\runner-1.5.2\AndroidManifest.xml:26:18-55
+21        <package android:name="com.google.android.apps.common.testing.services" />
+21-->[androidx.test:runner:1.5.2] C:\Users\dillon\.gradle\caches\transforms-3\a0d3a6c854551aa54ec40acc16585504\transformed\runner-1.5.2\AndroidManifest.xml:27:9-83
+21-->[androidx.test:runner:1.5.2] C:\Users\dillon\.gradle\caches\transforms-3\a0d3a6c854551aa54ec40acc16585504\transformed\runner-1.5.2\AndroidManifest.xml:27:18-80
+22    </queries>
+23
+24    <permission
+24-->[androidx.core:core:1.9.0] C:\Users\dillon\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+25        android:name="com.example.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+25-->[androidx.core:core:1.9.0] C:\Users\dillon\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+26        android:protectionLevel="signature" />
+26-->[androidx.core:core:1.9.0] C:\Users\dillon\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+27
+28    <uses-permission android:name="com.example.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+28-->[androidx.core:core:1.9.0] C:\Users\dillon\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+28-->[androidx.core:core:1.9.0] C:\Users\dillon\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+29    <uses-permission android:name="android.permission.REORDER_TASKS" />
+29-->[androidx.test:core:1.5.0] C:\Users\dillon\.gradle\caches\transforms-3\fe6f45397a1b5739b3edc2949198e87d\transformed\core-1.5.0\AndroidManifest.xml:24:5-72
+29-->[androidx.test:core:1.5.0] C:\Users\dillon\.gradle\caches\transforms-3\fe6f45397a1b5739b3edc2949198e87d\transformed\core-1.5.0\AndroidManifest.xml:24:22-69
+30
+31    <application
+31-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:7:5-54:19
+32        android:allowBackup="true"
+32-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:8:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.9.0] C:\Users\dillon\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+34        android:dataExtractionRules="@xml/data_extraction_rules"
+34-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:9:9-65
+35        android:debuggable="true"
+36        android:enableOnBackInvokedCallback="true"
+36-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:16:9-51
+37        android:extractNativeLibs="false"
+38        android:fullBackupContent="@xml/backup_rules"
+38-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:10:9-54
+39        android:icon="@drawable/chefhat"
+39-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:12:9-41
+40        android:label="Recipe Wizard"
+40-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:11:9-38
+41        android:logo="@drawable/chefhat"
+41-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:13:9-41
+42        android:supportsRtl="true"
+42-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:14:9-35
+43        android:testOnly="true"
+44        android:theme="@style/Theme.Test" >
+44-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:15:9-42
+45        <activity
+45-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:18:9-20:20
+46            android:name="com.example.test.RecipesActivity"
+46-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:18:19-50
+47            android:exported="true" >
+47-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:19:13-36
+48        </activity>
+49        <activity
+49-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:21:9-23:20
+50            android:name="com.example.test.RecipeDetailsActivity"
+50-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:21:19-56
+51            android:exported="true" >
+51-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:22:13-36
+52        </activity>
+53        <activity
+53-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:24:9-26:20
+54            android:name="com.example.test.RecipeSuggestionsActivity"
+54-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:24:19-60
+55            android:exported="true" >
+55-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:25:13-36
+56        </activity>
+57        <activity
+57-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:27:9-29:20
+58            android:name="com.example.test.FeaturedRecipeDetailsActivity"
+58-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:27:19-64
+59            android:exported="true" >
+59-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:28:13-36
+60        </activity>
+61        <activity
+61-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:30:9-33:20
+62            android:name="com.example.test.HomeActivity"
+62-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:31:13-41
+63            android:exported="true" >
+63-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:32:13-36
+64        </activity>
+65        <activity
+65-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:34:12-36:20
+66            android:name="com.example.test.PantryActivity"
+66-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:34:22-52
+67            android:exported="true" >
+67-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:35:13-36
+68        </activity>
+69        <activity
+69-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:37:9-40:20
+70            android:name="com.example.test.LoginActivity"
+70-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:38:13-42
+71            android:exported="true" >
+71-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:39:13-36
+72        </activity>
+73        <activity
+73-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:41:9-44:20
+74            android:name="com.example.test.RegisterActivity"
+74-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:42:13-45
+75            android:exported="true" >
+75-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:43:13-36
+76        </activity>
+77        <activity
+77-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:45:9-53:20
+78            android:name="com.example.test.MainActivity"
+78-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:46:13-41
+79            android:exported="true" >
+79-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:47:13-36
+80            <intent-filter>
+80-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:48:13-52:29
+81                <action android:name="android.intent.action.MAIN" />
+81-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:49:17-69
+81-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:49:25-66
+82
+83                <category android:name="android.intent.category.LAUNCHER" />
+83-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:51:17-77
+83-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:51:27-74
+84            </intent-filter>
+85        </activity>
+86
+87        <provider
+87-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\dillon\.gradle\caches\transforms-3\13a4752ffc88341ea727d500a67eb759\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:34:9-39:71
+88            android:name="com.android.car.ui.core.CarUiInstaller"
+88-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\dillon\.gradle\caches\transforms-3\13a4752ffc88341ea727d500a67eb759\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:35:13-66
+89            android:authorities="com.example.test.CarUiInstaller"
+89-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\dillon\.gradle\caches\transforms-3\13a4752ffc88341ea727d500a67eb759\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:36:13-66
+90            android:directBootAware="true"
+90-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\dillon\.gradle\caches\transforms-3\13a4752ffc88341ea727d500a67eb759\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:37:13-43
+91            android:exported="false"
+91-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\dillon\.gradle\caches\transforms-3\13a4752ffc88341ea727d500a67eb759\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:38:13-37
+92            android:process="@string/car_ui_installer_process_name" />
+92-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\dillon\.gradle\caches\transforms-3\13a4752ffc88341ea727d500a67eb759\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:39:13-68
+93        <provider
+93-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\dillon\.gradle\caches\transforms-3\13a4752ffc88341ea727d500a67eb759\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:40:9-45:79
+94            android:name="com.android.car.ui.core.SearchResultsProvider"
+94-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\dillon\.gradle\caches\transforms-3\13a4752ffc88341ea727d500a67eb759\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:41:13-73
+95            android:authorities="com.example.test.SearchResultsProvider"
+95-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\dillon\.gradle\caches\transforms-3\13a4752ffc88341ea727d500a67eb759\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:42:13-73
+96            android:exported="true"
+96-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\dillon\.gradle\caches\transforms-3\13a4752ffc88341ea727d500a67eb759\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:43:13-36
+97            android:process="@string/car_ui_installer_process_name"
+97-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\dillon\.gradle\caches\transforms-3\13a4752ffc88341ea727d500a67eb759\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:44:13-68
+98            android:readPermission="com.android.car.ui.READ_SEARCH_RESULTS" />
+98-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\dillon\.gradle\caches\transforms-3\13a4752ffc88341ea727d500a67eb759\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:45:13-76
+99        <provider
+99-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dillon\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+100            android:name="androidx.startup.InitializationProvider"
+100-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dillon\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+101            android:authorities="com.example.test.androidx-startup"
+101-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dillon\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+102            android:exported="false" >
+102-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dillon\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+103            <meta-data
+103-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dillon\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+104                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+104-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dillon\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+105                android:value="androidx.startup" />
+105-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dillon\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+106            <meta-data
+106-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dillon\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+107                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+107-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dillon\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+108                android:value="androidx.startup" />
+108-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dillon\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+109        </provider>
+110
+111        <uses-library
+111-->[androidx.window:window:1.0.0] C:\Users\dillon\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+112            android:name="androidx.window.extensions"
+112-->[androidx.window:window:1.0.0] C:\Users\dillon\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+113            android:required="false" />
+113-->[androidx.window:window:1.0.0] C:\Users\dillon\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+114        <uses-library
+114-->[androidx.window:window:1.0.0] C:\Users\dillon\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+115            android:name="androidx.window.sidecar"
+115-->[androidx.window:window:1.0.0] C:\Users\dillon\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+116            android:required="false" />
+116-->[androidx.window:window:1.0.0] C:\Users\dillon\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+117
+118        <activity
+118-->[androidx.test:core:1.5.0] C:\Users\dillon\.gradle\caches\transforms-3\fe6f45397a1b5739b3edc2949198e87d\transformed\core-1.5.0\AndroidManifest.xml:27:9-34:20
+119            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+119-->[androidx.test:core:1.5.0] C:\Users\dillon\.gradle\caches\transforms-3\fe6f45397a1b5739b3edc2949198e87d\transformed\core-1.5.0\AndroidManifest.xml:28:13-99
+120            android:exported="true"
+120-->[androidx.test:core:1.5.0] C:\Users\dillon\.gradle\caches\transforms-3\fe6f45397a1b5739b3edc2949198e87d\transformed\core-1.5.0\AndroidManifest.xml:29:13-36
+121            android:theme="@style/WhiteBackgroundTheme" >
+121-->[androidx.test:core:1.5.0] C:\Users\dillon\.gradle\caches\transforms-3\fe6f45397a1b5739b3edc2949198e87d\transformed\core-1.5.0\AndroidManifest.xml:30:13-56
+122            <intent-filter android:priority="-100" >
+122-->[androidx.test:core:1.5.0] C:\Users\dillon\.gradle\caches\transforms-3\fe6f45397a1b5739b3edc2949198e87d\transformed\core-1.5.0\AndroidManifest.xml:31:13-33:29
+122-->[androidx.test:core:1.5.0] C:\Users\dillon\.gradle\caches\transforms-3\fe6f45397a1b5739b3edc2949198e87d\transformed\core-1.5.0\AndroidManifest.xml:31:28-51
+123                <category android:name="android.intent.category.LAUNCHER" />
+123-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:51:17-77
+123-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:51:27-74
+124            </intent-filter>
+125        </activity>
+126        <activity
+126-->[androidx.test:core:1.5.0] C:\Users\dillon\.gradle\caches\transforms-3\fe6f45397a1b5739b3edc2949198e87d\transformed\core-1.5.0\AndroidManifest.xml:35:9-42:20
+127            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+127-->[androidx.test:core:1.5.0] C:\Users\dillon\.gradle\caches\transforms-3\fe6f45397a1b5739b3edc2949198e87d\transformed\core-1.5.0\AndroidManifest.xml:36:13-95
+128            android:exported="true"
+128-->[androidx.test:core:1.5.0] C:\Users\dillon\.gradle\caches\transforms-3\fe6f45397a1b5739b3edc2949198e87d\transformed\core-1.5.0\AndroidManifest.xml:37:13-36
+129            android:theme="@style/WhiteBackgroundTheme" >
+129-->[androidx.test:core:1.5.0] C:\Users\dillon\.gradle\caches\transforms-3\fe6f45397a1b5739b3edc2949198e87d\transformed\core-1.5.0\AndroidManifest.xml:38:13-56
+130            <intent-filter android:priority="-100" >
+130-->[androidx.test:core:1.5.0] C:\Users\dillon\.gradle\caches\transforms-3\fe6f45397a1b5739b3edc2949198e87d\transformed\core-1.5.0\AndroidManifest.xml:31:13-33:29
+130-->[androidx.test:core:1.5.0] C:\Users\dillon\.gradle\caches\transforms-3\fe6f45397a1b5739b3edc2949198e87d\transformed\core-1.5.0\AndroidManifest.xml:31:28-51
+131                <category android:name="android.intent.category.LAUNCHER" />
+131-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:51:17-77
+131-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:51:27-74
+132            </intent-filter>
+133        </activity>
+134        <activity
+134-->[androidx.test:core:1.5.0] C:\Users\dillon\.gradle\caches\transforms-3\fe6f45397a1b5739b3edc2949198e87d\transformed\core-1.5.0\AndroidManifest.xml:43:9-50:20
+135            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+135-->[androidx.test:core:1.5.0] C:\Users\dillon\.gradle\caches\transforms-3\fe6f45397a1b5739b3edc2949198e87d\transformed\core-1.5.0\AndroidManifest.xml:44:13-103
+136            android:exported="true"
+136-->[androidx.test:core:1.5.0] C:\Users\dillon\.gradle\caches\transforms-3\fe6f45397a1b5739b3edc2949198e87d\transformed\core-1.5.0\AndroidManifest.xml:45:13-36
+137            android:theme="@style/WhiteBackgroundDialogTheme" >
+137-->[androidx.test:core:1.5.0] C:\Users\dillon\.gradle\caches\transforms-3\fe6f45397a1b5739b3edc2949198e87d\transformed\core-1.5.0\AndroidManifest.xml:46:13-62
+138            <intent-filter android:priority="-100" >
+138-->[androidx.test:core:1.5.0] C:\Users\dillon\.gradle\caches\transforms-3\fe6f45397a1b5739b3edc2949198e87d\transformed\core-1.5.0\AndroidManifest.xml:31:13-33:29
+138-->[androidx.test:core:1.5.0] C:\Users\dillon\.gradle\caches\transforms-3\fe6f45397a1b5739b3edc2949198e87d\transformed\core-1.5.0\AndroidManifest.xml:31:28-51
+139                <category android:name="android.intent.category.LAUNCHER" />
+139-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:51:17-77
+139-->C:\Users\dillon\Desktop\RecipeWizardVer1-master\app\src\main\AndroidManifest.xml:51:27-74
+140            </intent-filter>
+141        </activity>
+142    </application>
+143
+144</manifest>
